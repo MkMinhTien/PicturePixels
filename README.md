@@ -30,4 +30,4 @@ This is my source code to create Picture Pixels
 
 # Total amount money
 
-## 4476$ USD
+**4476$ USD**

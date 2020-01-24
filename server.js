@@ -1,15 +1,15 @@
-const express = require('express');
+var express = require('express'),
+    app = express(),
+    https = require('https').Server(app).listen(92634);
 
-const app = express;
+app.use('/js', express.static('../script'))
+app.use('/css', express.static('../style'))
+app.use('/img', express.static('../image'))
 
-app.get('/', (req, res) =>
+console.log('NodeJS NOW is RUNNING');
 
-    res.send('Hi')
+app.get('/', function(req, res) {
 
-);
+    res.sendFile(__dirname + 'public/index.html');
 
-app.listen(92634, () =>
-
-    console.log('Website NOW is RUNNING!')
-
-);
+})

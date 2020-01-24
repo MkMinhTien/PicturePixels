@@ -27,3 +27,7 @@ This is my source code to create Picture Pixels
 
 ### Expressjs
 #### [expressjs.com](https://expressjs.com)
+
+# Total amount money
+
+## 4476$ USD

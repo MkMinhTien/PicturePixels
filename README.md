@@ -1,4 +1,5 @@
 # Picture Pixels
+This is my source code to create Picture Pixels
 
 ## Links
 
